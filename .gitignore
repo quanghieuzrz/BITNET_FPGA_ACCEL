@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Vector sinh tự động (tạo lại bằng golden/tao_vector_v1.py)
+vectors/*
+!vectors/README.md
+
+# Vivado / mô phỏng
+*.jou
+*.log
+*.str
+.Xil/
+*.cache/
+*.hw/
+*.runs/
+*.sim/
+*.ip_user_files/
+xsim.dir/
+*.wdb
+*.vcd
+obj_dir/
+
+# Kết quả biên dịch mô phỏng
+build/
